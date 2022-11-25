@@ -3,7 +3,7 @@
 
 # -*- coding: utf-8 -*-
 
-# Ejercicio 10
+# Ejercicio 11 - C
 
 print("Ingrese los datos necesarios")
 
@@ -11,17 +11,21 @@ print("Ingrese los datos necesarios")
 
 # Operación
 
-cTer = 5
-
 c = 1
 
 s = 0
 
-while c <= cTer:
+while True:
 
-    es = float(input(str(c) + ".- Ingrese la estatura: "))
+    n = int(input(str(c) + ".- Ingrese un numero: "))
 
-    s += es
+    if n % 2 == 0:
+
+        s += n
+
+    if n == 0:
+
+        break
 
     c += 1
 
@@ -29,7 +33,5 @@ while c <= cTer:
 # Resultados
 
 print("La suma de las estaturas es: ", s)
-
-print("El promedio de las estaturas es: ", round(s / cTer, 2))
 
 print("Muchas Gracias, programa terminado.")

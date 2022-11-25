@@ -1,9 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 2
 
+print("Ingrese los datos necesarios")
 
-# Ingreso de Datos
+# Ingreso de datos
 
 n = int(input("Ingrese un numero: "))
 
@@ -15,4 +19,5 @@ while n < 0 or n > 20:
 
 # Resultados
 
-print("Muchas Gracias")
+print("Muchas Gracias, programa terminado.")
+

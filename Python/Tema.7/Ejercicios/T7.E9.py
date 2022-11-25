@@ -1,8 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 9
 
-# Ingreso de Datos
+print("Ingrese los datos necesarios")
+
+# Ingreso de datos
 
 n = int(input("Ingrese la cantidad de términos: "))
 

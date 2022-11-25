@@ -1,9 +1,13 @@
 ""
+#!/usr/bin/env python
 
-# Ejercicio 2
+# -*- coding: utf-8 -*-
 
+# Ejercicio 3
 
-# Ingreso de Datos
+print("Ingrese los datos necesarios")
+
+# Ingreso de datos
 
 vocal = ["a", "e", "i", "o", "u"]
 
@@ -17,4 +21,4 @@ while v not in vocal:
 
 # Resultados
 
-print("Muchas Gracias")
+print("Muchas Gracias, programa terminado.")

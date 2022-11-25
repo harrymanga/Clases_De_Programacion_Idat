@@ -1,9 +1,13 @@
 ""
+#!/usr/bin/env python
 
-# Ejercicio 4
+# -*- coding: utf-8 -*-
 
-# Ingreso de Datos
+# Ejercicio 14
 
+print("Ingrese los datos necesarios")
+
+# Ingreso de datos
 
 # Operación
 

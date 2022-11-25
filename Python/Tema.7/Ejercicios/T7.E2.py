@@ -1,8 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 2
 
-# Ingreso de Datos
+print("Ingrese los datos necesarios")
+
+# Ingreso de datos
 
 t = input("Ingrese un texto: ")
 
