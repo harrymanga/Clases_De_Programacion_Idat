@@ -1,5 +1,7 @@
 ""
+#!/usr/bin/env python
 
+# -*- coding: utf-8 -*-
 
 # Ejercicio 2
 
@@ -13,10 +15,14 @@ n = int(input("Ingrese un número: "))
 
 if (n % 2) == 0:
 
-    print("El número", n, "es par")
+    res = "El número " + str(n) + " es par"
 
 else:
 
-    print("El número", n, "es impar")
+    res = "El número " + str(n) + " es impar"
 
 # Resultado
+
+print(res)
+
+print("Muchas Gracias, programa terminado.")

@@ -1,4 +1,7 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 4
 
@@ -12,12 +15,14 @@ un = int(input("Ingrese la cantidad en unidades de producto comprado: "))
 
 if un >= 50:
 
-    r = "Se le dará un CHOCOLATE de regalo"
+    res = "Se le dará un CHOCOLATE de regalo"
 
 else:
 
-    r = "Se le dará un CARAMELO DE LIMÓN de regalo"
+    res = "Se le dará un CARAMELO DE LIMÓN de regalo"
 
 # Resultado
 
-print(r)
+print(res)
+
+print("Muchas Gracias, programa terminado.")

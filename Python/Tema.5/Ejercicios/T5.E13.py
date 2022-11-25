@@ -1,4 +1,8 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
+
 # Ejercicio 13
 
 print("Ingrese los datos necesarios")
@@ -25,10 +29,14 @@ if 0 <= n1 <= 20 and 0 <= n2 <= 20 and 0 <= n3 <= 20:
 
     prom = round((n1 + n2 + n3) / 3, 2)
 
-    # Resultados
-
-    print("El promedio final del alumno es: ", prom)
+    res = "El promedio final del alumno es: " + str(prom)
 
 else:
 
-    print("Datos Incorrectos")
+    res = "Datos Incorrectos"
+
+# Resultado
+
+print(res)
+
+print("Muchas Gracias, programa terminado.")

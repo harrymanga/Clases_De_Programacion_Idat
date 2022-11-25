@@ -1,4 +1,7 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 8
 
@@ -12,10 +15,14 @@ n = int(input("Ingrese un número: "))
 
 if (n % 5) == 0:
 
-    print("El número", n, "es múltiplo de 5")
+    res = "El número " + str(n) + " es múltiplo de 5"
 
 else:
 
-    print("El número", n, "no es múltiplo de 5")
+    res = "El número " + str(n) + " no es múltiplo de 5"
 
 # Resultado
+
+print(res)
+
+print("Muchas Gracias, programa terminado.")

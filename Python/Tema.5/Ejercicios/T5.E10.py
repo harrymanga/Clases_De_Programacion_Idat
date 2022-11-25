@@ -1,4 +1,7 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 10
 
@@ -23,3 +26,5 @@ else:
 # Resultados
 
 print(res)
+
+print("Muchas Gracias, programa terminado.")

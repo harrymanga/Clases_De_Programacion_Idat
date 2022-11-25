@@ -1,8 +1,12 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 7
 
 print("Ingrese 1 si desea calcular el área de un triángulo")
+
 print("Ingrese un número diferente a 1 si desea calcular el área de un círculo")
 
 # Ingreso de datos
@@ -23,7 +27,7 @@ if n == 1:
 
     at = (b * h) / 2
 
-    print("El área del triángulo es: ", round(at, 2))
+    res = "El área del triángulo es: " + str(round(at, 2))
 
 else:
 
@@ -33,6 +37,10 @@ else:
 
     ac = math.pi * (r**2)
 
-    print("El área del triángulo es: ", round(ac, 2))
+    res = "El área del triángulo es: " + str(round(ac, 2))
 
 # Resultado
+
+print(res)
+
+print("Muchas Gracias, programa terminado.")

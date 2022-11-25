@@ -1,6 +1,9 @@
 ""
+#!/usr/bin/env python
 
-# Ejercicio 15
+# -*- coding: utf-8 -*-
+
+# Ejercicio 15 - A
 
 print("Ingrese los datos necesarios")
 
@@ -33,3 +36,5 @@ else:
 # Resultados
 
 print(res)
+
+print("Muchas Gracias, programa terminado.")
