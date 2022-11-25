@@ -1,8 +1,13 @@
+""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
+
 # Ejercicio 12
 
 print("Ingrese los datos necesarios")
 
-# Ingreso de Datos
+# Ingreso de datos
 
 a = float(input("ingrese la medida del lado A: "))
 
@@ -31,3 +36,5 @@ else:
 # Resultado
 
 print(res)
+
+print("Muchas Gracias, programa terminado.")

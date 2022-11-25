@@ -5,6 +5,8 @@
 
 # Ejercicio 2
 
+print("Ingrese los datos necesarios")
+
 # Ingreso de Datos
 
 d1 = float(input("Ingrese la diagonal mayor: "))

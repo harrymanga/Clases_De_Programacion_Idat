@@ -6,6 +6,8 @@
 
 # Ejercicio 3
 
+print("Ingrese los datos necesarios")
+
 # Ingreso de Datos
 
 a = float(input("Ingrese la medida del Lado A: "))

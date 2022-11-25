@@ -7,6 +7,8 @@
 
 #Ejercicio 2
 
+print("Ingrese los datos necesarios")
+
 # Ingreso de Datos
 
 a = float(input("Ingrese el precio: "))

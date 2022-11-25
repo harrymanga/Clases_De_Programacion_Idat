@@ -5,6 +5,8 @@
 
 # Ejercicio 3
 
+print("Ingrese los datos necesarios")
+
 # Ingreso de Datos
 
 apellido = input("Ingrese su Apellido: ")

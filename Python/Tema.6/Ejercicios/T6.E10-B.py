@@ -1,38 +1,9 @@
-"""
+""
+#!/usr/bin/env python
 
-# Ejercicio 10
+# -*- coding: utf-8 -*-
 
-print("Ingrese los datos necesarios")
-
-# Ingreso de Datos
-
-pre = [
-    "Caramelo de limón",
-    "Chupetín",
-    "Chocolate",
-    "Gaseosa personal",
-    "Gaseosa de 1 litro",
-    "Gaseosa de 2 litros",
-]
-
-nu = int(input("ingrese el resultado obtenido en el dado: "))
-
-# Operaciones
-
-if nu <= 6:
-
-    res = pre[nu - 1]
-
-else:
-
-    res = "Valor de dado incorrecto"
-
-# Resultado
-
-print(res)"""
-
-
-# Ejercicio 10
+# Ejercicio 10 - B
 
 print("Ingrese los datos necesarios")
 
@@ -75,3 +46,5 @@ else:
 # Resultado
 
 print(res)
+
+print("Muchas Gracias, programa terminado.")

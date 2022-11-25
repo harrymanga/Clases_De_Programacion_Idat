@@ -6,6 +6,8 @@
 
 # Ejercicio 5
 
+print("Ingrese los datos necesarios")
+
 # Ingreso de Datos
 
 s = float(input("Ingrese el Sueldo: "))

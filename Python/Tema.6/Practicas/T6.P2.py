@@ -1,26 +1,44 @@
 ""
+#!/usr/bin/env python
 
-# Ejercicio
+# -*- coding: utf-8 -*-
 
+# Ejercicio 2
 
-# Ingreso de Datos
+print("Ingrese los datos necesarios")
+
+# Ingreso de datos
 
 edad = int(input("Ingrese su edad: "))
 
-# Operación
+# Operaciones
 
 if edad < 0:
 
     m = "Error: no existe una edad negativa"
 
-elif edad < 18:
+elif edad < 15:
 
-    m = "es menor de edad"
+    m = "eres bastante joven"
+
+elif edad < 30:
+
+    m = "eres muy joven"
+
+elif edad < 50:
+
+    m = "eres joven"
+
+elif edad < 80:
+
+    m = "eres casi un joven"
 
 else:
 
-    m = "es mayor de edad"
+    m = "igual ya te vas haciendo mayor"
 
 # Resultados
 
 print(m)
+
+print("Muchas Gracias, programa terminado.")

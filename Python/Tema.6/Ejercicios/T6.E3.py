@@ -1,10 +1,16 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 3
 
-# Ingreso de Datos
+print("Ingrese los datos necesarios")
+
+# Ingreso de datos
 
 n1 = int(input("Ingrese el primer numero: "))
+
 n2 = int(input("Ingrese el segundo numero: "))
 
 # Operación
@@ -23,4 +29,6 @@ else:
 
 # Resultados
 
-print(res)
+print(res) 
+
+print("Muchas Gracias, programa terminado.")

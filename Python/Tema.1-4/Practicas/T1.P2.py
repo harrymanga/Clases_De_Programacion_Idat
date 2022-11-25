@@ -5,6 +5,8 @@
 
 # Ejercicio 2
 
+print("Ingrese los datos necesarios")
+
 # Ingreso de Datos
 
 nombre = input("Ingrese su nombre: ")

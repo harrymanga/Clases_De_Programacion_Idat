@@ -1,8 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 2
 
-# Ingreso de Datos
+print("Ingrese los datos necesarios")
+
+# Ingreso de datos
 
 mtc = float(input("Ingrese el Monto de la compra: "))
 
@@ -27,4 +32,6 @@ mtp = mtc - des
 
 # Resultados
 
-print("La comision es de: ", round(mtp, 2))
+print("La comisión es de: ", round(mtp, 2))
+
+print("Muchas Gracias, programa terminado.")

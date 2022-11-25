@@ -5,6 +5,8 @@
 
 # Ejercicio 5
 
+print("Ingrese los datos necesarios")
+
 # Ingreso de Datos
 
 n1 = float(input("Ingrese el primer numero: "))

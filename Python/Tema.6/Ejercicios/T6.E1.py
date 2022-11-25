@@ -1,11 +1,16 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 1
 
+print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
 mtv = float(input("Ingrese el Monto de la venta: "))
+
 sms = float(input("Ingrese el Monto del sueldo mensual: "))
 
 # Operación
@@ -26,4 +31,6 @@ mtt = com + sms
 
 # Resultados
 
-print("La comision es de: ", round(mtt, 2))
+print("La comisión es de: ", round(mtt, 2))
+
+print("Muchas Gracias, programa terminado.")

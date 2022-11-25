@@ -1,4 +1,7 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 6
 
@@ -10,7 +13,7 @@ pr = int(input("Ingrese el precio del producto: "))
 
 ed = int(input("Ingrese su edad: "))
 
-di = input("Que dia es hoy: ").capitalize()
+di = input("Que día es hoy: ").capitalize()
 
 un = int(input("Cuantas unidades del producto esta comprando: "))
 
@@ -75,7 +78,7 @@ unid = int(input("Ingrese la unidades compradas: "))
 
 prec = float(input("Ingrese el precio por unidad: "))
 
-dia = input("Ingrese el dia de la compra: ").title()
+dia = input("Ingrese el día de la compra: ").title()
 
 edad = int(input("Ingrese la edad del cliente: "))
 
@@ -85,15 +88,15 @@ porcD = 0
 
 if unid > 5:
 
-    porcD += 0.04  # descueto # 4%
+    porcD += 0.04  # descuento # 4%
 
 if edad > 40:
 
-    porcD += 0.05  # descueto # 5%
+    porcD += 0.05  # descuento # 5%
 
 if dia == "Viernes":
 
-    porcD += 0.07  # descueto # 7%
+    porcD += 0.07  # descuento # 7%
 
 # Operaciones:
 
@@ -109,6 +112,8 @@ print("***********************************************")
 
 print("El importe de venta es:", impV)
 
-print("El importe de descueto acumulado es:", round(impD, 2))
+print("El importe de descuento acumulado es:", round(impD, 2))
 
 print("El importe final es:", round(impF, 2))
+
+print("Muchas Gracias, programa terminado.")

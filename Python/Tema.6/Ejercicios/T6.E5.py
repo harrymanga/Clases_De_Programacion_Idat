@@ -1,16 +1,19 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 5
 
 print(
-    "Si decea comprar un Smart Tv use el codigo P001 \nSi decea comprar una Refrigeradora use el codigo P002 \nSi decea comprar una Lavadora use el codigo P003"
+    "Si desea comprar un Smart Tv use el código P001 \nSi desea comprar una Refrigeradora use el codigo P002 \nSi decea comprar una Lavadora use el codigo P003"
 )
 
 # Ingreso de Datos
 
 lista_codigo = ["P001", "P002", "P003"]
 
-co = input("Ingrese el codigo del producto: ").capitalize()
+co = input("Ingrese el código del producto: ").capitalize()
 
 # Operación
 
@@ -38,9 +41,7 @@ if co in lista_codigo:
 
         imt = imv + igv
 
-        # Resultados
-
-        print("EL importe de la venta del codigo", co, "es: S/.", round(imv, 2))
+        print("EL importe de la venta del código", co, "es: S/.", round(imv, 2))
 
         print("EL importe del IGV es: S/.", round(igv, 2))
 
@@ -52,4 +53,8 @@ if co in lista_codigo:
 
 else:
 
-    print("El Codigo de producto ingresado no es valido")
+    print("El Código de producto ingresado no es valido")
+
+# Resultados
+
+print("Muchas Gracias, programa terminado.")

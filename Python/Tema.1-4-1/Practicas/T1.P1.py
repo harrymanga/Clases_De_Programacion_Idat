@@ -5,6 +5,8 @@
 
 # Ejercicio 1
 
+print("Ingrese los datos necesarios")
+
 # Ingreso de Datos
 
 x = float(input("Ingrese el perimetro del octagono: "))

@@ -5,6 +5,8 @@
 
 # Ejercicio 4
 
+print("Ingrese los datos necesarios")
+
 # Ingreso de Datos
 
 l = float(input("Ingrese la medida del Lado del prisma : "))

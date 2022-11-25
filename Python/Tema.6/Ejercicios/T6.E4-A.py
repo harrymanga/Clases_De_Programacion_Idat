@@ -1,12 +1,17 @@
 ""
+#!/usr/bin/env python
 
-# Ejercicio 4
+# -*- coding: utf-8 -*-
+
+# Ejercicio 4 - A
+
+print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
 lista_codigo = ["101", "102", "103"]
 
-co = input("Ingrese el codigo del producto: ")
+co = input("Ingrese el código del producto: ")
 
 if co in lista_codigo:
 
@@ -51,13 +56,11 @@ if co in lista_codigo:
 
         imp = imc - imd
 
-        # Resultados
+        print("EL importe de la compra del código", co, "es: S/.", round(imc, 2))
 
-        print("EL importe de la compra del codigo", co, "es: S/.", round(imc, 2))
+        print("EL importe del descuento del código", co, "es: S/.", round(imd, 2))
 
-        print("EL importe del descuento del codigo", co, "es: S/.", round(imd, 2))
-
-        print("EL importe a pagar del codigo", co, "es: S/.", round(imp, 2))
+        print("EL importe a pagar del código", co, "es: S/.", round(imp, 2))
 
     else:
 
@@ -65,4 +68,8 @@ if co in lista_codigo:
 
 else:
 
-    print("El Codigo de producto ingresado no es valido")
+    print("El Código de producto ingresado no es valido")
+
+# Resultados
+
+print("Muchas Gracias, programa terminado.")

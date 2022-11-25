@@ -1,4 +1,7 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 8
 
@@ -46,8 +49,6 @@ if ed > 0:
 
         mtp = mtc - mtd
 
-        # Resultados
-
         print("EL monto de la compra es: S/.", round(mtc, 2))
 
         print("EL monto del descuento por usar la tarjeta CGT es: S/.", round(mtd, 2))
@@ -56,8 +57,12 @@ if ed > 0:
 
     else:
 
-        print("Número de entrdas no valido")
+        print("Número de entradas no valido")
 
 else:
 
     print("Edad ingresada no valida")
+
+# Resultados
+
+print("Muchas Gracias, programa terminado.")

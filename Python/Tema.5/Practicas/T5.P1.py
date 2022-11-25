@@ -5,6 +5,8 @@
 
 # Ejercicio 1
 
+print("Ingrese los datos necesarios")
+
 # Ingreso de datos
 
 nota1 = int(input("Ingrese la nota 1: "))

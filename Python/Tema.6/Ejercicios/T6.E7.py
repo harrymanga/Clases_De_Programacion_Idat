@@ -1,4 +1,7 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 7
 
@@ -42,7 +45,7 @@ elif co == 3:
 
     print("Ingrese los datos del Pentágono")
 
-    pr = float(input("Ingrese la medida del perimetro del Pentágono: "))
+    pr = float(input("Ingrese la medida del perímetro del Pentágono: "))
 
     ap = float(input("Ingrese la medida del apotema del Pentágono: "))
 
@@ -57,3 +60,5 @@ else:
 # Resultado
 
 print(res)
+
+print("Muchas Gracias, programa terminado.")

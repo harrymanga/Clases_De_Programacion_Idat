@@ -5,6 +5,8 @@
 
 # Ejercicio 5
 
+print("Ingrese los datos necesarios")
+
 # Ingreso de Datos
 
 import math
