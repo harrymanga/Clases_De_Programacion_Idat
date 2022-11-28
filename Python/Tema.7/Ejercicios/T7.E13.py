@@ -25,7 +25,7 @@ while True:
 
         pr = input("Ingrese el precio del producto: ")
 
-        if pr.isalpha():
+        if pr.isalpha() or pr == "":
 
             print("Dato ingresado incorrecto, ingrese solo precios de los productos")
 
@@ -37,7 +37,7 @@ while True:
 
         ct = input("Ingrese la cantidad de en unidades del producto: ")
 
-        if ct.isalpha():
+        if ct.isalpha() or ct == "":
 
             print(
                 "Dato ingresado incorrecto, ingrese la cantidad de los productos en números"
@@ -53,7 +53,7 @@ while True:
             "¿Desea registrar otro producto? , para continuar ingrese Si, si desea terminar ingrese No: "
         ).lower()
 
-        if men.isdigit():
+        if men.isdigit() or men == "":
 
             print("Error ingrese Si o No")
 
@@ -61,7 +61,7 @@ while True:
 
             break
 
-    productos[c - 1] = [pr , ct]
+    productos[c - 1] = [pr, ct]
 
     mt1 = float(pr) * int(ct)
 
@@ -75,9 +75,9 @@ while True:
 
 print("N°\tPrecio\tCantidad\tTotal")
 
-for c , v in productos.items():
+for c, v in productos.items():
 
-    print(c , "\t" , v[0] , "\t" , v[1] , "\t      S/.", float(v[0]) * int(v[1]))
+    print(c, "\t", v[0], "\t", v[1], "\t      S/.", float(v[0]) * int(v[1]))
 
 # Resultados
 

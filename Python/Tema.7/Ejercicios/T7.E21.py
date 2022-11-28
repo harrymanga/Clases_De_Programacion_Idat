@@ -3,7 +3,7 @@
 
 # -*- coding: utf-8 -*-
 
-# Ejercicio 11 - A
+# Ejercicio 21
 
 print("Ingrese los datos necesarios")
 
@@ -15,21 +15,20 @@ c = 1
 
 s = 0
 
-n = -1
+while True:
 
-while n != 0:
+    n = int(input(str(c) + ".- Ingrese un número: "))
 
-    n = int(input(str(c) + ".- Ingrese un numero: "))
+    s += n
 
-    if n % 2 == 0:
+    if n == 0:
 
-        s += n
+        break
 
     c += 1
 
-
 # Resultados
 
-print("La suma de las estaturas es: ", s)
+print("La suma de los número ingresados es: ", s)
 
 print("Muchas Gracias, programa terminado.")
