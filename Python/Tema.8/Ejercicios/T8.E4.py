@@ -1,10 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 4
 
+print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
-
 
 # Operación
 
@@ -18,6 +21,6 @@ for i in range(1, 101):
 
 # Resultados
 
-print("La suma de los primeros 100 números inpares es:", s)
+print("La suma de los primeros 100 números impares es:", s)
 
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")

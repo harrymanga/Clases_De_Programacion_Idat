@@ -3,7 +3,7 @@
 
 # -*- coding: utf-8 -*-
 
-# Ejercicio 1
+# Ejercicio 2
 
 print("Ingrese los datos necesarios")
 
@@ -11,13 +11,13 @@ print("Ingrese los datos necesarios")
 
 # Operación
 
-a = 7
+a = 10
 
 s = 0
 
 print("Nº\tSerie")
 
-for i in range(50):
+for i in range(20):
 
     a += i
 
@@ -28,5 +28,7 @@ for i in range(50):
 # Resultados
 
 print("La suma de la serie es:", s)
+
+print("El promedio de la serie es:", round(s / 20, 2))
 
 print("Muchas Gracias, programa terminado.")
