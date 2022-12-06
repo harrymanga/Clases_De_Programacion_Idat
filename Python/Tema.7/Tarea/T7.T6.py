@@ -5,62 +5,92 @@
 
 # Ejercicio 6
 
-print("Ingrese los datos necesarios")
+print("Solicite sus cartas para jugar a 21\n")
 
 # Ingreso de datos
 
-l = ["", "+", "-", " ", ".", "*", "/"]
+from random import randint
+
+sumCartas = 0
 
 while True:
 
-    n1 = input("Ingrese el primer número entre 0 y 20: ")
+    pedirCarta = input("¿Desea pedir una cartas (Si / No): ").capitalize()
 
-    if n1.isalpha() or n1 in l or 0 > int(n1) or int(n1) > 20:
+    if pedirCarta == "Si":
 
-        print("Dato ingresado incorrecto, ingrese solo números entre 0 y 20")
+        carta = randint(1, 13)
+
+        print(carta)
+
+        sumCartas += carta
+
+        if sumCartas > 21:
+
+            res = "Usted a Perdido, la suma de sus cartas es " + str(sumCartas)
+
+            break
+
+        if sumCartas == 21:
+
+            res = "Usted a Ganado, la suma de sus cartas es " + str(sumCartas)
+
+            break
+
+    elif pedirCarta == "No":
+
+        if sumCartas == 0:
+
+            res = "Usted no eligió ninguna carta"
+
+            break
+
+        else:
+
+            res = "Usted a Terminado de elegir cartas\n"
+
+            break
 
     else:
 
-        break
-
-while True:
-
-    n2 = input("Ingrese el primer número entre 0 y 20: ")
-
-    if n2.isalpha() or n2 in l or 0 > int(n2) or int(n2) > 20:
-
-        print("Dato ingresado incorrecto, ingrese solo números entre 0 y 20")
-
-    else:
-
-        break
+        print("Respuesta incorrecta coloque Si o No")
 
 # Operación
 
-from random import randint
+print(res)
 
-lng = []
+if sumCartas != 0 and sumCartas < 21:
 
-print("Nº\tNumero Generado")
+    print("La casa pedirá 3 cartas para competir con las tuyas\n")
 
-for i in range(2):
+    sumCartaGene = 0
 
-    ng = randint(0, 20)
+    for i in range(3):
 
-    lng.append(ng)
+        cartaGene = randint(1, 13)
 
-    print(i + 1, "\t", ng)
+        sumCartaGene += cartaGene
 
-if n1 in lng and n2 in lng:
+        print("Carta generada Nº", i + 1, "es :", cartaGene)
 
-    res = "El par de números ingresados coinciden"
+    print()
 
-else:
+    if sumCartaGene > 21:
 
-    res = "El par de números son diferentes"
+        print("La casa Pierde con :", sumCartaGene, ", Usted Gana con :", sumCartas)
+
+    elif sumCartas < sumCartaGene <= 21:
+
+        print("La casa Gana con :", sumCartaGene, ", Usted Pierde con :", sumCartas)
+
+    elif sumCartas == sumCartaGene:
+
+        print("La casa Empata con :", sumCartaGene, ", Usted Empata con :", sumCartas)
+
+    else:
+
+        print("La casa Pierde con :", sumCartaGene, ", Usted Gana con :", sumCartas)
 
 # Resultados
-
-print(res)
 
 print("Muchas Gracias, programa terminado.")

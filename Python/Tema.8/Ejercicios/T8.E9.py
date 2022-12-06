@@ -5,7 +5,7 @@
 
 # Ingreso de Datos
 
-n = int(input("Ingrese el número de terminos : "))
+n = int(input("Ingrese el número de términos : "))
 
 # Operación
 
