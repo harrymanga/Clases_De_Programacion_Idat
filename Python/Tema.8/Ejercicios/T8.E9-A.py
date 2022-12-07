@@ -1,61 +1,34 @@
-# solución 1
+""
+#!/usr/bin/env python
 
-n = int(input("Ingrese la cantidad de términos: "))
+# -*- coding: utf-8 -*-
 
-s = 0
+# Ejercicio 9 - A
 
-for i in range(1, n + 1):
+print("Ingrese los datos necesarios")
 
-    a = i * 3 - 1
+# Ingreso de Datos
 
-    b = i * 2 + 1
+# Operación
 
-    c = a / b
+j = 2
 
-    s = s + c
+k = 3
 
-    print(str(a) + "/" + str(b))
+s1 = 0
 
-print("Suma:", round(s, 2))
+for i in range(1, 101):
 
-# solución 2
+    s1 += (j / k)
 
-from fractions import Fraction
+    print(str(i) + ".-", j, "/", k)
 
-i = 2
+    j += 3
 
-suma = 0
+    k += 2
 
-for j in range(3, 202, 2):
+# Resultados
 
-    k = Fraction(i, j)
+print("La suma es:", round(s1 , 2))
 
-    print(k)
-
-    suma += k
-
-    i += 3
-
-print("Suma:", Fraction(suma))
-
-# solución 3
-
-n = int(input("Ingrese la cantidad de términos: "))
-
-suma = 0
-
-a = 2
-
-b = 3
-
-for i in range(1, n + 1):
-
-    print(str(a) + "/" + str(b))
-
-    suma += a / b
-
-    a += 3
-
-    b += 2
-
-print("Suma:", round(suma, 2))
+print("Muchas Gracias, programa terminado.")

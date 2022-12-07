@@ -1,7 +1,11 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 7
 
+print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
@@ -33,8 +37,8 @@ for i in range(n1, n2 + 1):
 
     print(str(c) + ".-", i)
 
-print("La suma es:", s)
-
 # Resultados
 
-print("Programa terminado")
+print("La suma es:", s)
+
+print("Muchas Gracias, programa terminado.")

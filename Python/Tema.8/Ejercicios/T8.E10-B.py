@@ -3,7 +3,7 @@
 
 # -*- coding: utf-8 -*-
 
-# Ejercicio 8
+# Ejercicio 10 - B
 
 print("Ingrese los datos necesarios")
 
@@ -11,22 +11,24 @@ print("Ingrese los datos necesarios")
 
 # Operación
 
-c = 0
+from fractions import Fraction
 
-s = 0
+i = 1
 
-for i in range(1, 51):
+suma = 0
 
-    c += 1
+for j in range(2, 201, 2):
 
-    i *= 2
+    k = Fraction(i, j)
 
-    s += i
+    print(k)
 
-    print(str(c) + ".-", i)
+    suma += k
+
+    i += 3
 
 # Resultados
 
-print("La suma es:", s)
+print('Suma:', Fraction(suma))
 
 print("Muchas Gracias, programa terminado.")

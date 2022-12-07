@@ -3,7 +3,7 @@
 
 # -*- coding: utf-8 -*-
 
-# Ejercicio 6 - A
+# Ejercicio 6 - C
 
 print("Ingrese los datos necesarios")
 
@@ -11,13 +11,13 @@ print("Ingrese los datos necesarios")
 
 while True:
 
-    n1 = int(input("Ingrese el número menor del intervalo : "))
+    n1 = int(input('Ingrese el menor número: '))
 
-    n2 = int(input("Ingrese el número mayor del intervalo : "))
+    n2 = int(input('Ingrese el mayor número: '))
 
     if n1 >= n2:
 
-        print("Intervalo no admitido")
+        print('El primero debe ser menor que el segundo')
 
     else:
 
@@ -25,15 +25,11 @@ while True:
 
 # Operación
 
-c = 0
-
 for i in range(n1, n2 + 1):
 
     if i % 2 != 0:
 
-        c += 1
-
-        print(str(c) + ".-", i)
+        print(i)
 
 # Resultados
 
