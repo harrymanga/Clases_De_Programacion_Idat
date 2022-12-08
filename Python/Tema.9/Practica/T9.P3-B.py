@@ -3,31 +3,23 @@
 
 # -*- coding: utf-8 -*-
 
-# Ejercicio 5
+# Ejercicio 3 - B
 
 print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
-# Operación
-
 lista = []
 
-c = 0
+cantidad = int(input("Ingrese la cantidad de términos de la lista: "))
 
-while True:
+# Operación
 
-    n = int(input(str(c + 1) + ".- Ingrese un numero: "))
+for i in range(1, cantidad + 1):
 
-    if n == 0:
+    n = int(input(str(i) + ".- Ingrese un numero: "))
 
-        break
-
-    if n % 5 == 0:
-
-        lista.append(n)
-
-    c += 1
+    lista.append(n)
 
 # Resultados
 

@@ -1,10 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 1
 
+print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
-
 
 # Operación
 
@@ -22,10 +25,10 @@ valores.remove(
 
 valores.remove(25)
 
+# Resultados
+
 print(valores)
 
 print("Indice de 9.56: ", valores.index(9.56))
 
-# Resultados
-
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")

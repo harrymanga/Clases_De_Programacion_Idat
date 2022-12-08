@@ -3,31 +3,21 @@
 
 # -*- coding: utf-8 -*-
 
-# Ejercicio 5
+# Ejercicio 3 - A
 
 print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
-# Operación
-
 lista = []
 
-c = 0
+for i in range(1, 6):
 
-while True:
+    n = int(input(str(i) + ".- Ingrese un numero: "))
 
-    n = int(input(str(c + 1) + ".- Ingrese un numero: "))
+    lista.append(n)
 
-    if n == 0:
-
-        break
-
-    if n % 5 == 0:
-
-        lista.append(n)
-
-    c += 1
+# Operación
 
 # Resultados
 

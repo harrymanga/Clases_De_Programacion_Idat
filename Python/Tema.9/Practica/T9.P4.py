@@ -1,10 +1,15 @@
 ""
+#!/usr/bin/env python
 
+# -*- coding: utf-8 -*-
 
 # Ejercicio 4
 
+print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
+
+# Operación
 
 lista = []
 
@@ -22,13 +27,10 @@ while True:
 
     c += 1
 
+# Resultados
+
 print("Números Ingresados:", lista)
 
 print("Tamaño de la lista:", c)
 
-# Operación
-
-
-# Resultados
-
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")

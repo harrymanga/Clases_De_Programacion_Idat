@@ -1,23 +1,26 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 2
 
+print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
-
 # Operación
 
-numeros = [12, 8, 12, 32, 12, 33, 40, 18, 100]
-
-print(numeros)
-
-print("Repeticiones del numero 12: ", numeros.count(12))
-
-numeros.reverse()
-
-print(numeros)
+números = [12, 8, 12, 32, 12, 33, 40, 18, 100]
 
 # Resultados
 
-print("Programa terminado")
+print(números)
+
+print("Repeticiones del numero 12: ", números.count(12))
+
+números.reverse()
+
+print(números)
+
+print("Muchas Gracias, programa terminado.")

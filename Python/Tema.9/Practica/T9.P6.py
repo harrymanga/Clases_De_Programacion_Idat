@@ -1,12 +1,19 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 6
 
+print("Ingrese los datos necesarios")
+
+# Ingreso de Datos
+
 lista = []
 
-# ingreso de datos
-
 cantidad = int(input("Ingrese la cantidad de estaturas: "))
+
+# Operación
 
 for i in range(1, cantidad + 1):
 
@@ -24,8 +31,6 @@ for i in range(1, cantidad + 1):
 
             print("Ingrese una estatura en el rango de [0.50 a 2.50] metros")
 
-# operación
-
 prom = sum(lista) / len(lista)
 
 lista2 = []
@@ -36,7 +41,7 @@ for est in lista:
 
         lista2.append(est)
 
-# resultados
+# Resultados
 
 print("Estaturas ingresadas:", lista)
 
@@ -46,4 +51,4 @@ print("Las estaturas mayores al promedio son:", lista2)
 
 print("Cantidad de estaturas mayores al promedio:", len(lista2))
 
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")
