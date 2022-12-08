@@ -1,8 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 1
 
-# ingreso de datos
+print("Ingrese los datos necesarios")
+
+# Ingreso de Datos
 
 lista = []
 
@@ -22,14 +27,14 @@ for i in range(1, 11):
 
             print("Ingrese una nota entre 0 y 20")
 
-# operación
+# Operación
 
 p = sum(lista) / len(lista)
 
-# resultados
+# Resultados
 
 print("Notas Ingresadas:", lista)
 
 print("Promedio de notas:", round(p, 2))
 
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")

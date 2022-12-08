@@ -1,10 +1,17 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 2
 
-from random import randint
+print("Ingrese los datos necesarios")
 
-# ingreso de datos
+# Ingreso de Datos
+
+# Operación
+
+from random import randint
 
 lista = []
 
@@ -13,8 +20,6 @@ for i in range(50):
     n = randint(10, 100)
 
     lista.append(n)
-
-# operación
 
 mayor = max(lista)
 
@@ -34,7 +39,7 @@ for i in range(50):
 
         indMenor.append(i)
 
-# resultados
+# Resultados
 
 print("Numeros generados:", lista)
 
@@ -42,4 +47,4 @@ print("Numero mayor:", mayor, "\tIndice", indMayor)
 
 print("Numero menor:", menor, "\tIndice", indMenor)
 
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")
