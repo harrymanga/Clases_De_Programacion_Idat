@@ -3,7 +3,7 @@
 
 # -*- coding: utf-8 -*-
 
-# Ejercicio 4
+# Ejercicio 12
 
 print("Ingrese los datos necesarios")
 
@@ -11,10 +11,16 @@ print("Ingrese los datos necesarios")
 
 # Operación
 
-for i in range(10):
+from random import randint
 
-    print(i)
+nota = randint(0, 20)
+
+a = nota * "*"
 
 # Resultados
+
+print("NOTA\t ASTERISCOS")
+
+print(nota, "\t", a)
 
 print("Muchas Gracias, programa terminado.")

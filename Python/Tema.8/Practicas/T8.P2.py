@@ -1,10 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 2
 
+print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
-
 
 # Operación
 
@@ -16,4 +19,4 @@ for elemento in lista:
 
 # Resultados
 
-print("Prorgrama terminado")
+print("Muchas Gracias, programa terminado.")

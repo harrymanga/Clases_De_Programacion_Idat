@@ -1,7 +1,11 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 10
 
+print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
@@ -11,7 +15,7 @@ n = int(input("Ingrese el total de tablas: "))
 
 for j in range(1, n + 1):
 
-    print("\nTabal de multiplicar del", j)
+    print("\nTabla de multiplicar del", j)
 
     print("**************************")
 
@@ -19,7 +23,6 @@ for j in range(1, n + 1):
 
         print(i, "*", j, "=", i * j)
 
-
 # Resultados
 
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")

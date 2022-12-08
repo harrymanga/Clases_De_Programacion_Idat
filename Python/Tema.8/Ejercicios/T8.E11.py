@@ -9,28 +9,32 @@ print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
-n = int(input("Ingrese la cantidad de notas: "))
-
 # Operación
 
 from random import randint
 
 lista = []
 
-for i in range(n):
+for i in range(45):
 
     nota = randint(0, 20)
 
+    print("La nota Nª", i + 1, "es", nota)
+
     lista.append(nota)
+
+prom = sum(lista) / len(lista)
+
+notaMax = max(lista)
+
+notaMin = min(lista)
 
 # Resultados
 
-print("Las notas generadas son:", lista)
+print("El promedio de las notas es:", round(prom, 2))
 
-print("La nota promedio es:", round(sum(lista) / len(lista), 2))
+print("La nota maxima es:", notaMax)
 
-print("La nota mayor es:", max(lista))
-
-print("La nota menor es:", min(lista))
+print("La nota minima es:", notaMin)
 
 print("Muchas Gracias, programa terminado.")

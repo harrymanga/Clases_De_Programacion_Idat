@@ -1,7 +1,11 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 9
 
+print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
@@ -13,7 +17,7 @@ f = 1
 
 if n < 0:
 
-    print("No existe factorial de números negativos")
+    res = "No existe factorial de números negativos"
 
 else:
 
@@ -21,8 +25,10 @@ else:
 
         f *= i
 
-    print("El factorial de ", n, "=", f)
+    res = "El factorial de " + str(n) + " = " + str(f)
 
 # Resultados
 
-print("Programa terminado")
+print(res)
+
+print("Muchas Gracias, programa terminado.")

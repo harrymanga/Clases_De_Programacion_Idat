@@ -1,7 +1,11 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 7
 
+print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
@@ -17,4 +21,4 @@ for i in range(n):
 
 # Resultados
 
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")
