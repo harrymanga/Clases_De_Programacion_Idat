@@ -1,10 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 6
 
-print(" INGRESE LOS DATOS NECESARIOS\n")
+print("Ingrese los datos necesarios")
 
-# Ingreso de datos
+# Ingreso de Datos
 
 meses = [
     "Enero",
@@ -79,3 +82,5 @@ print("El monto total de las ventas es: S/.", sum(montos))
 print(
     "El monto promedio de las ventas es: S/.", round((sum(montos) / len(mesAgrup)), 2)
 )
+
+print("Muchas Gracias, programa terminado.")

@@ -1,8 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 3
 
-# ingreso de datos
+print("Ingrese los datos necesarios")
+
+# Ingreso de Datos
 
 vocales = ["a", "e", "i", "o", "u", "á", "é", "í", "ó", "ú", "ü"]
 
@@ -17,7 +22,7 @@ while True:
 
         print("Ingrese solo letras")
 
-# operación
+# Operación
 
 cantV = 0
 
@@ -31,7 +36,7 @@ cantL = len(nom)
 
 cantC = cantL - cantV
 
-# resultados
+# Resultados
 
 print("La cantidad de letras es:", cantL)
 
@@ -39,4 +44,4 @@ print("La cantidad de vocales es:", cantV)
 
 print("La cantidad de consonantes es:", cantC)
 
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")

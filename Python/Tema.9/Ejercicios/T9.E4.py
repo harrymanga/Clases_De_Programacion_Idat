@@ -1,12 +1,19 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 4
 
-from random import randint
+print("Ingrese los datos necesarios")
 
-# ingreso de datos
+# Ingreso de Datos
+
+# Operación
 
 lista = []
+
+from random import randint
 
 for i in range(50):
 
@@ -14,11 +21,9 @@ for i in range(50):
 
     lista.append(n)
 
-# operación
+# Resultados
 
-# resultados
-
-print("Numeros generados:", lista)
+print("Números generados:", lista)
 
 print("Nº\tRepeticiones")
 
@@ -26,4 +31,4 @@ for i in range(1, 10):
 
     print(i, " -->   ", lista.count(i))
 
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")

@@ -1,20 +1,25 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 5
 
-from random import randint
+print("Ingrese los datos necesarios")
 
-# ingreso de datos
+# Ingreso de Datos
+
+# Operación
 
 lista = []
+
+from random import randint
 
 for i in range(100):
 
     n = randint(30, 100)
 
     lista.append(n)
-
-# operación
 
 par = 0
 
@@ -26,7 +31,7 @@ for n in lista:
 
 impar = len(lista) - par
 
-# resultados
+# Resultados
 
 print("Números generados:", lista)
 
@@ -34,4 +39,4 @@ print("La cantidad de números pares es: ", par)
 
 print("La cantidad de números impares es: ", impar)
 
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")
