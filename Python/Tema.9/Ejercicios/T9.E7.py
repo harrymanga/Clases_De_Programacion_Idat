@@ -3,7 +3,7 @@
 
 # -*- coding: utf-8 -*-
 
-# Ejercicio 6
+# Ejercicio 7
 
 print("Ingrese los datos necesarios")
 
@@ -79,6 +79,8 @@ print("El mes con la máxima venta es: ", mesAgrup[pos][0])
 
 print("El monto total de las ventas es: S/.", sum(montos))
 
-print("El monto promedio de las ventas es: S/.", round((sum(montos) / len(mesAgrup)), 2))
+print(
+    "El monto promedio de las ventas es: S/.", round((sum(montos) / len(mesAgrup)), 2)
+)
 
 print("Muchas Gracias, programa terminado.")
