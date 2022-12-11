@@ -9,78 +9,48 @@ print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
-meses = [
-    "Enero",
-    "Febrero",
-    "Marzo",
-    "Abril",
-    "Mayo",
-    "Junio",
-    "Julio",
-    "Agosto",
-    "Septiembre",
-    "Octubre",
-    "Noviembre",
-    "Diciembre",
-]
+while True:
 
-numMeses = int(input("Ingrese la cantidad de meses a evaluar: "))
+    num = input("Ingrese un numero entero que este en el rango de 100 a 999 : ")
 
-mesAgrup = []
+    if num.isalpha() or int(num) < 100 or int(num) > 999:
 
-for i in range(numMeses):
+        print(
+            "Error dato incorrecto, ingrese un numero entero en el rango de 100 a 999"
+        )
 
-    while True:
+    else:
 
-        mes = input("Ingrese el mes: ").capitalize()
-
-        if mes not in meses:
-
-            print("ERROR ingrese un dato valido")
-
-        else:
-
-            break
-
-    ventas = float(input("Ingrese el monto de la venta del mes: "))
-
-    mesAgrup.append((mes, ventas))
-
-
-print("Ingreso terminado\n")
+        break
 
 # Operación
 
-montos = []
+from random import randint
 
-for i in range(len(mesAgrup)):
+lista = []
 
-    montos.append(mesAgrup[i][1])
+for i in range(20):
 
-for i in range(len(mesAgrup)):
+    numRan = randint(100, 999)
 
-    print(i + 1, ".-", mesAgrup[i][0], mesAgrup[i][1])
+    lista.append(numRan)
 
-pos = 0
+lista1 = []
 
-for maxVenta in range(1, len(mesAgrup)):
+for i in lista:
 
-    if mesAgrup[maxVenta][1] > mesAgrup[pos][1]:
+    if int(num) < i:
 
-        pos = maxVenta
-
-print()
+        lista1.append(i)
 
 # Resultados
 
-print("El monto de la venta máxima es: S/.", mesAgrup[pos][1])
+print("Lista Completa de Números generados")
 
-print("El mes con la máxima venta es: ", mesAgrup[pos][0])
+print(lista)
 
-print("El monto total de las ventas es: S/.", sum(montos))
+print("Lista Reducida de Números generados")
 
-print(
-    "El monto promedio de las ventas es: S/.", round((sum(montos) / len(mesAgrup)), 2)
-)
+print(lista1)
 
 print("Muchas Gracias, programa terminado.")
