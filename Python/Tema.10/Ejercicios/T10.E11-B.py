@@ -1,5 +1,4 @@
 ""
-
 # Ejercicio 10
 
 from random import randint
