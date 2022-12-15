@@ -16,4 +16,6 @@ def saludo():
 
 saludo()
 
+print("Hi")
+
 print("Programa terminado")
