@@ -11,13 +11,14 @@ print("Ingrese los datos necesarios")
 
 # Operación
 
+
 def saludo():
 
     print("Hola como estas")
+
 
 # Resultados
 
 saludo()
 
 print("Muchas Gracias, programa terminado.")
-
