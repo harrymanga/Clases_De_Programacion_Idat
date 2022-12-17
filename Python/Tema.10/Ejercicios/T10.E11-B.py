@@ -1,10 +1,16 @@
 ""
-# Ejercicio 10
+#!/usr/bin/env python
 
-from random import randint
+# -*- coding: utf-8 -*-
+
+# Ejercicio 11 - B
+
+print("Ingrese los datos necesarios")
+
+# Funciones
 
 
-def numeros(a, b):
+def números(a, b):
 
     if a == b:
 
@@ -17,6 +23,8 @@ def numeros(a, b):
     return r
 
 
+# Ingreso de Datos
+
 while True:
 
     n1 = int(input("Ingrese un número de 1 a 6: "))
@@ -25,6 +33,14 @@ while True:
 
         break
 
+# Operación
+
+from random import randint
+
 n2 = randint(1, 6)
 
-print(numeros(n1, n2))
+# Resultados
+
+print(números(n1, n2))
+
+print("Muchas Gracias, programa terminado.")

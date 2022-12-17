@@ -1,6 +1,13 @@
 ""
+#!/usr/bin/env python
 
-# Ejercicio 13
+# -*- coding: utf-8 -*-
+
+# Ejercicio 10 - A
+
+print("Ingrese los datos necesarios")
+
+# Funciones
 
 
 def vocales(n):
@@ -81,7 +88,7 @@ def mayorCC(x):
     return listaMCC
 
 
-# programa principal
+# Ingreso de Datos
 
 listaN = pedirDatos()
 
@@ -89,8 +96,12 @@ listaNMCV = mayorCV(listaN)
 
 listaNMCC = mayorCC(listaN)
 
+# Operación
+
+# Resultados
+
 print("El nombre con más vocales es: ", listaNMCV)
 
 print("El nombre con más consonantes es: ", listaNMCC)
 
-# Resultados
+print("Muchas Gracias, programa terminado.")

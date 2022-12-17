@@ -1,6 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 9
+
+print("Ingrese los datos necesarios")
+
+# Funciones
 
 print("")
 
@@ -17,12 +24,12 @@ def cubo(b):
     return b**3
 
 
-def raiz(c):
+def raíz(c):
 
     return round(c**0.5, 2)
 
 
-# Programa Principal
+# Ingreso de Datos
 
 while True:
 
@@ -47,9 +54,14 @@ while True:
         break
 
 print("Seleccione una operación para realizar")
+
 print("Si dese elevar el numero al cuadrado escriba: Cuadrado")
+
 print("Si dese elevar el numero al cubo escriba: Cubo")
+
 print("Si dese obtener la raíz cuadrada escriba: Raíz")
+
+# Operación
 
 while True:
 
@@ -73,4 +85,8 @@ elif op == "cubo":
 
 else:
 
-    print("La raíz cuadrada del  numero", num, "es:", raiz(num))
+    print("La raíz cuadrada del  numero", num, "es:", raíz(num))
+
+# Resultados
+
+print("Muchas Gracias, programa terminado.")

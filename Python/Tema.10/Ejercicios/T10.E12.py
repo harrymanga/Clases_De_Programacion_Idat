@@ -1,6 +1,13 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 12
+
+print("Ingrese los datos necesarios")
+
+# Funciones
 
 
 def mayor(lista):
@@ -31,9 +38,9 @@ def prom(lista):
     return "El promedio es: " + str(pro)
 
 
-# Programa Principal
+# Ingreso de Datos
 
-print("Ingrese cuatro numeros")
+print("Ingrese cuatro números")
 
 lista = []
 
@@ -43,8 +50,9 @@ for i in range(4):
 
     lista.append(a)
 
-# Resultados
+# Operación
 
+# Resultados
 
 print(mayor(lista))
 
@@ -53,3 +61,5 @@ print(menor(lista))
 print(suma(lista))
 
 print(prom(lista))
+
+print("Muchas Gracias, programa terminado.")

@@ -16,46 +16,17 @@ def pedirNumero(msg):
 
         try:
 
-            usuarioNum = int(usuarioNum)
+            msg1 = int(msg1)
 
-            continuar = True
-
-        except:
-
-            usuarioNum = input("Numero no valido\nIngrese nuevamente ")
-
-    return usuarioNum
-
-
-def pedirNumeroFloat(msg):
-
-    usuarioNum = input(msg)
-
-    continuar = False
-
-    while continuar == False:
-
-        try:
-
-            usuarioNum = float(usuarioNum)
-
-            continuar = True
+            break
 
         except:
 
-            usuarioNum = input("No valido\nIngrese nuevamente ")
+            msg1 = input("Dato no valido, Ingrese nuevamente el numero de ventas : ")
 
-    return usuarioNum
+    return msg1
 
 
-ventas = []
+ventas = numeroInt("Ingrese el numero de ventas a registrar : ")
 
-cantidadVentas = pedirNumero("Cantidad de ventas a registar:")
-
-for x in range(1, cantidadVentas + 1):
-
-    ventas.append(pedirNumeroFloat("Precio de la venta #" + str(x) + ": "))
-
-    print(ventas)
-
-print("El promedio de las ventas es: ", round(numPromedio(ventas), 2))
+print(ventas)

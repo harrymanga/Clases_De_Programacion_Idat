@@ -3,24 +3,28 @@
 
 # -*- coding: utf-8 -*-
 
-# Ejercicio 1
+# Ejercicio 8 - C
 
 print("Ingrese los datos necesarios")
 
 # Funciones
 
 
-def saludo():
+def tabla(n):
 
-    print("Hola como estas")
+    for i in range(1, 13):
+
+        print(str(i) + ".-", str(n), "x", str(i), ":", n * i)
 
 
 # Ingreso de Datos
+
+num = int(input("Ingresa un número entero positivo: "))
 
 # Operación
 
 # Resultados
 
-saludo()
+tabla(num)
 
 print("Muchas Gracias, programa terminado.")

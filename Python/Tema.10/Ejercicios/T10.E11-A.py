@@ -1,8 +1,13 @@
 ""
+#!/usr/bin/env python
 
-# Ejercicio 10
+# -*- coding: utf-8 -*-
 
-import random
+# Ejercicio 11 - A
+
+print("Ingrese los datos necesarios")
+
+# Funciones
 
 
 def pedirN(m):
@@ -23,6 +28,7 @@ def pedirN(m):
 
 
 def adivinaNum(x, y):
+
     if x == y:
 
         m = "Ud. ha ganado"
@@ -34,12 +40,20 @@ def adivinaNum(x, y):
     print(m)
 
 
-# Programa Principal
+# Ingreso de Datos
 
 numIng = pedirN("Ingrese un número en el rango de [1-6]: ")
 
+# Operación
+
+import random
+
 numGen = random.randint(1, 6)
+
+# Resultados
 
 print("Número generado:", numGen)
 
 adivinaNum(numIng, numGen)
+
+print("Muchas Gracias, programa terminado.")

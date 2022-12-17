@@ -1,6 +1,13 @@
 ""
+#!/usr/bin/env python
 
-# Ejercicio 5
+# -*- coding: utf-8 -*-
+
+# Ejercicio 5 - A
+
+print("Ingrese los datos necesarios")
+
+# Funciones
 
 
 def edad(e):
@@ -24,9 +31,8 @@ ed = int(input("Ingrese su edad: "))
 
 # Operación
 
-
 # Resultados
 
 print(edad(ed))
 
-print("Programa terminado")
+print("Muchas Gracias, programa terminado.")
