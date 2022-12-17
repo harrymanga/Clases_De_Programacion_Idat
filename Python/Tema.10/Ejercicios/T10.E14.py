@@ -1,18 +1,11 @@
 ""
 
 
-def numPromedio(numeros):
+def numeroInt(msg):
 
-    return sum(numeros) / len(numeros)
+    msg1 = input(msg)
 
-
-def pedirNumero(msg):
-
-    usuarioNum = input(msg)
-
-    continuar = False
-
-    while continuar == False:
+    while True:
 
         try:
 
