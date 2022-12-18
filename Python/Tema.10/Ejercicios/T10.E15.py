@@ -1,58 +1,18 @@
-def numPromedio(numeros):
+""
+#!/usr/bin/env python
 
-    return sum(numeros) / len(numeros)
+# -*- coding: utf-8 -*-
 
+# Ejercicio 15
 
-def pedirNumero(msg):
+print("Ingrese los datos necesarios")
 
-    usuarioNum = input(msg)
+# Funciones
 
-    continuar = False
+# Ingreso de Datos
 
-    while continuar == False:
+# Operación
 
-        try:
+# Resultados
 
-            usuarioNum = int(usuarioNum)
-
-            continuar = True
-
-        except:
-
-            usuarioNum = input("Numero no valido\nIngrese nuevamente ")
-
-    return usuarioNum
-
-
-def pedirNumeroFloat(msg):
-
-    usuarioNum = input(msg)
-
-    continuar = False
-
-    while continuar == False:
-
-        try:
-
-            usuarioNum = float(usuarioNum)
-
-            continuar = True
-
-        except:
-
-            usuarioNum = input("No valido\nIngrese nuevamente ")
-
-    return usuarioNum
-
-
-ventas = []
-
-cantidadVentas = pedirNumero("Cantidad de ventas a registar:")
-
-for x in range(1, cantidadVentas + 1):
-
-    ventas.append(pedirNumeroFloat("Precio de la venta #" + str(x) + ": "))
-
-    print(ventas)
-
-print("El promedio de las ventas es: ", round(numPromedio(ventas), 2))
+print("Muchas Gracias, programa terminado.")
