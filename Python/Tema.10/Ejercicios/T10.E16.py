@@ -48,7 +48,7 @@ def resultado(a):
 
 # Resultados
 
-print("Notas del alumono")
+print("Notas del alumno")
 
 generarNum()
 
