@@ -30,43 +30,63 @@ def registrarDatos():
 
         while True:
 
-            salario = input("Ingrese el monto del salario básico del empleado : ")
+            try:
 
-            if salario.isalpha() or 0 < float(salario) or salario != "":
+                salario = input("Ingrese el monto del salario básico del empleado : ")
 
                 salario = float(salario)
 
-                break
+                if salario > 0:
 
-            else:
+                    break
+
+                else:
+
+                    print("Dato invalido, Ingrese el salario del empleado")
+
+            except ValueError:
 
                 print("Dato invalido, Ingrese el salario del empleado")
 
         while True:
 
-            bonificación = input("Ingrese el monto de la bonificación del empleado : ")
+            try:
 
-            if bonificación.isalpha() or 0 < float(bonificación):
+                bonificación = input(
+                    "Ingrese el monto de la bonificación del empleado : "
+                )
 
                 bonificación = float(bonificación)
 
-                break
+                if bonificación > 0:
 
-            else:
+                    break
+
+                else:
+
+                    print("Dato invalido, Ingrese la bonificación del empleado")
+
+            except ValueError:
 
                 print("Dato invalido, Ingrese la bonificación del empleado")
 
         while True:
 
-            descuento = input("Ingrese el monto del descuento del empleado : ")
+            try:
 
-            if descuento.isalpha() or 0 < float(descuento):
+                descuento = input("Ingrese el monto del descuento del empleado : ")
 
                 descuento = float(descuento)
 
-                break
+                if descuento > 0:
 
-            else:
+                    break
+
+                else:
+
+                    print("Dato invalido, Ingrese el descuento del empleado")
+
+            except ValueError:
 
                 print("Dato invalido, Ingrese el descuento del empleado")
 
@@ -74,36 +94,50 @@ def registrarDatos():
 
         break
 
+
 def salarioNeto(a):
-	
-	for c,v in a.items():
-		
-		neto = v[0] + v[1] - v[2]
-		
-		print("El sueldo neto a pagar es : S/." ,neto)
+
+    for c, v in a.items():
+
+        neto = v[0] + v[1] - v[2]
+
+        print("El sueldo neto a pagar es : S/.", neto)
+
 
 # Ingreso de Datos
 
 while True:
-	
-	numEmpleados = input("Ingrese el numero de empleados a registrar : ")
 
-	if numEmpleados.isdigit() or 0 < int(numEmpleados) or numEmpleados != str(""):
-		
-		numEmpleados = int(numEmpleados)
-		
-		break
-		
-	else:
-		
-		print("Dato invalido, Ingrese la bonificación del empleado")
+    try:
+
+        numEmpleados = input("Ingrese el numero de empleados a registrar : ")
+
+        numEmpleados = int(numEmpleados)
+
+        if numEmpleados > 0:
+
+            break
+
+        else:
+
+            print("Dato invalido, Ingrese el numero de empleados a registrar")
+
+    except ValueError:
+
+        print("Dato invalido, Ingrese el numero de empleados a registrar")
 
 
 # Operación
 
+for i in range(numEmpleados):
+
+    print("Ingrese los datos del empleado N°", i + 1)
+
+    registrarDatos()
+
+
 # Resultados
 
-registrarDatos()
 
 print(empleado)
 
