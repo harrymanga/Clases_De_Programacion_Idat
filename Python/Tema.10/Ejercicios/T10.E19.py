@@ -95,15 +95,6 @@ def registrarDatos():
         break
 
 
-def salarioNeto(a):
-
-    for c, v in a.items():
-
-        neto = v[0] + v[1] - v[2]
-
-        print("El sueldo neto a pagar es : S/.", neto)
-
-
 # Ingreso de Datos
 
 while True:
@@ -126,21 +117,51 @@ while True:
 
         print("Dato invalido, Ingrese el numero de empleados a registrar")
 
-
 # Operación
 
 for i in range(numEmpleados):
 
-    print("Ingrese los datos del empleado N°", i + 1)
+    print(f"Ingrese los datos del empleado N° {i+1}")
 
     registrarDatos()
 
+sueldosNetos = {}
 
-# Resultados
+
+def salarioNeto(a):
+
+    print("Sueldos a Pagar")
+
+    for c1, v1 in a.items():
+
+        neto = v1[0] + v1[1] - v1[2]
+
+        print(f"El sueldo neto a pagar del empleado {c1} es : S/. {neto}")
+
+        sueldosNetos[c1] = neto
 
 
-print(empleado)
+def empleadoMayorSueldo(b):
+
+    mayor = 0
+
+    for c2, v2 in b.items():
+
+        if mayor < v2:
+
+            mayor = v2
+
+    for c2, v2 in b.items():
+
+        if mayor == v2:
+
+            print(f"EL empleado con mayor sueldo neto es : {c2}")
+
+
+# Resultado
 
 salarioNeto(empleado)
+
+empleadoMayorSueldo(sueldosNetos)
 
 print("Muchas Gracias, programa terminado.")
