@@ -3,7 +3,7 @@
 
 # -*- coding: utf-8 -*-
 
-# Ejercicio 21
+# Ejercicio 22
 
 print("Ingrese los datos necesarios")
 
