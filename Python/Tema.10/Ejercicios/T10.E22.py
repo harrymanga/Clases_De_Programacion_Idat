@@ -41,6 +41,35 @@ def sueldoBruto(a, b):
 
     return r
 
+
+def bonificacion(a, b):
+
+    r = a * b
+
+    return r
+
+
+def descuento(a):
+
+    if 0 <= a <= 20:
+
+        r = a * 2
+
+    elif 21 <= a <= 50:
+
+        r = a * 6
+
+    elif 51 <= a <= 100:
+
+        r = a * 10
+
+    else :
+
+        r = a * 15
+
+    return r
+
+
 # Ingreso de Datos
 
 # Operación
