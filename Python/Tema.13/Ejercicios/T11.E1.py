@@ -1,42 +1,70 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 1
 
+print("Ingrese los datos necesarios")
+
 print("Creacion de diccionario Ingles / Español")
 
-# Ingreso de Datos
+# Funciones
 
 
 def registroDatos():
+
     dic = {}
+
     i = 1
+
     while True:
+
         print("Palabra", i, "\n**********")
+
         pI = input("Ingrese la palabra en inglés: ").lower()
+
         pC = input("Ingrese la palabra en castellano: ").lower()
+
         dic[pI] = pC
+
         i += 1
+
         r = input("¿Desea continuar?: ")
+
         if r != "si":
+
             break
+
     return dic
 
 
 def listado(d):
+
     print("Palabras registradas")
+
     for c, v in d.items():
+
         print(c, " --> ", v)
 
 
 def buscar(d, x):
+
     pC = "La palabra en inglés introducida no está registrada"
+
     for c in d.keys():
+
         if c == x:
+
             pC = d[x]
+
     print(pC)
 
 
-# programa principal
+# Ingreso de Datos
+
+# Operación
+
 dic = {}
 
 while True:
@@ -80,3 +108,5 @@ while True:
         break
 
 # Resultados
+
+print("Muchas Gracias, programa terminado.")

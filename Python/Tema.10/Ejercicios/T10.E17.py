@@ -27,7 +27,7 @@ def generarNota():
         print("Nº", i + 1, "=", nota)
 
     if len(listaSumas) > 0:
-
+        
         listaSumas.remove(listaSumas[0])
 
     return listaSumas.append(suma)
@@ -57,7 +57,7 @@ def resultado(b):
 print("Notas del alumno")
 
 for i in range(10):
-
+    
     print("Las notas del alumno N°", i + 1, "son :")
 
     generarNota()

@@ -41,7 +41,7 @@ def resultado(b):
     c = round(b / 5, 2)
 
     if 13 <= c:
-
+        
         res = "El alumno aprobó con : " + str(c)
 
         listaAprobados.append(res)
@@ -62,7 +62,7 @@ def resultado(b):
 print("Notas del alumno")
 
 for i in range(10):
-
+    
     print("Las notas del alumno N°", i + 1, "son :")
 
     generarNota()

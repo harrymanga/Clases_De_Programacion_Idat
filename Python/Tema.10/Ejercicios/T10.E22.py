@@ -1,4 +1,29 @@
-""
+"""
+
+
+22. Crear una aplicación que permita calcular el salario de un empleado. 
+
+El salario será igual a la suma de sueldo bruto + bonificación – descuento. ​
+
+El sueldo bruto se calculará como tarifa horaria * horas trabajadas.​
+
+La bonificación se calculará como tarifa horaria * horas extras.​
+
+El descuento se aplicará según el siguiente criterio :​
+
+Si los minutos de tardanza se encuentran de cero a 20, entonces se descontará S/2 por minuto.​
+
+Si los minutos de tardanza se encuentran de 21 a 50, entonces se descontará S/6 por minuto.​
+
+Si los minutos de tardanza se encuentran de 51 a 100, entonces se descontará S/10 por minuto.​
+
+Si los minutos de tardanza son más de 100, entonces se descontará S/15 por minuto.​
+
+​
+
+Utilice funciones para el cálculo de salario, sueldo bruto, bonificación y descuento.
+"""
+
 #!/usr/bin/env python
 
 # -*- coding: utf-8 -*-
@@ -9,55 +34,17 @@ print("Ingrese los datos necesarios")
 
 # Funciones
 
-meses = {
-    1: "Enero",
-    2: "Febrero",
-    3: "Marzo",
-    4: "Abril",
-    5: "Mayo",
-    6: "Junio",
-    7: "Julio",
-    8: "Agosto",
-    9: "Septiembre",
-    10: "Octubre",
-    11: "Noviembre",
-    12: "Diciembre",
-}
 
+def sueldoBruto(a, b):
 
-def nombreMes(a):
+    r = a * b
 
-    print(f"El mes seleccionado es : {meses[a]}")
-
+    return r
 
 # Ingreso de Datos
-
-
-while True:
-
-    try:
-
-        numMes = input("Ingrese el numero de mes que desea saber: ")
-
-        numMes = int(numMes)
-
-        if 13 > numMes > 0:
-
-            break
-
-        else:
-
-            print("Dato invalido, Ingrese el numero del mes")
-
-    except ValueError:
-
-        print("Dato invalido, Ingrese el numero del mes")
-
 
 # Operación
 
 # Resultado
-
-nombreMes(numMes)
 
 print("Muchas Gracias, programa terminado.")

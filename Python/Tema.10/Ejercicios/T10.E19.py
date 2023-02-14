@@ -41,7 +41,6 @@ def registrarDatos():
                     break
 
                 else:
-
                     print("Dato invalido, Ingrese el salario del empleado")
 
             except ValueError:
@@ -154,7 +153,7 @@ def empleadoMayorSueldo(b):
     for c2, v2 in b.items():
 
         if mayor == v2:
-
+            
             print(f"EL empleado con mayor sueldo neto es : {c2}")
 
 

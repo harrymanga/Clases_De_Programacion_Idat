@@ -11,7 +11,7 @@ print("Ingrese los datos necesarios")
 
 
 def saludo(n):
-
+    
     print("Hola", n, ", ¿Cómo estás?")
 
 

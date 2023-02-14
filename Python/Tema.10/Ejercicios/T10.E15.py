@@ -60,7 +60,7 @@ def mayor(c):
     for i in lista:
 
         if 80 <= i:
-
+            
             may += 1
 
     return may

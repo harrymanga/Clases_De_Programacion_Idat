@@ -50,7 +50,7 @@ while True:
             print("Dato invalido, Ingrese el numero del mes")
 
     except ValueError:
-
+        
         print("Dato invalido, Ingrese el numero del mes")
 
 

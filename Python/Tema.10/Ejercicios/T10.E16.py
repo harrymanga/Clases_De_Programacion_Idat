@@ -36,7 +36,7 @@ def resultado(a):
         res = "El alumno aprobó con : " + str(b)
 
     else:
-
+        
         res = "El alumno desaprobó con : " + str(b)
 
     return res
