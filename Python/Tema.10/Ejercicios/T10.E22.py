@@ -1,28 +1,4 @@
-"""
-
-
-22. Crear una aplicación que permita calcular el salario de un empleado. 
-
-El salario será igual a la suma de sueldo bruto + bonificación – descuento. ​
-
-El sueldo bruto se calculará como tarifa horaria * horas trabajadas.​
-
-La bonificación se calculará como tarifa horaria * horas extras.​
-
-El descuento se aplicará según el siguiente criterio :​
-
-Si los minutos de tardanza se encuentran de cero a 20, entonces se descontará S/2 por minuto.​
-
-Si los minutos de tardanza se encuentran de 21 a 50, entonces se descontará S/6 por minuto.​
-
-Si los minutos de tardanza se encuentran de 51 a 100, entonces se descontará S/10 por minuto.​
-
-Si los minutos de tardanza son más de 100, entonces se descontará S/15 por minuto.​
-
-​
-
-Utilice funciones para el cálculo de salario, sueldo bruto, bonificación y descuento.
-"""
+""
 
 #!/usr/bin/env python
 
@@ -42,7 +18,7 @@ def sueldoBruto(a, b):
     return r
 
 
-def bonificacion(a, b):
+def bonificación(a, b):
 
     r = a * b
 
@@ -63,17 +39,123 @@ def descuento(a):
 
         r = a * 10
 
-    else :
+    else:
 
         r = a * 15
 
     return r
 
 
+def salario(a, b, c):
+
+    r = a + b - c
+
+    if r > 0:
+
+        print(f"El salario del empleado es: S/. {r}")
+
+    else:
+
+        print(f"El empleado cuenta con una deuda de : S/. {r * (-1)}")
+
+
 # Ingreso de Datos
+
+while True:
+
+    while True:
+
+        try:
+
+            tarifaHoraria = input("Ingrese la tarifa de horario laboral : ")
+
+            tarifaHoraria = float(tarifaHoraria)
+
+            if tarifaHoraria > 0:
+
+                break
+
+            else:
+
+                print("Dato invalido, Ingrese la Tarifa de horario laboral")
+
+        except ValueError:
+
+            print("Dato invalido, Ingrese la Tarifa de horario laboral")
+
+    while True:
+
+        try:
+
+            horasTrabajadas = input("Ingrese las Horas trabajadas : ")
+
+            horasTrabajadas = int(horasTrabajadas)
+
+            if horasTrabajadas > 0:
+
+                break
+
+            else:
+
+                print("Dato invalido, Ingrese las Horas trabajadas")
+
+        except ValueError:
+
+            print("Dato invalido, Ingrese las Horas trabajadas")
+
+    while True:
+
+        try:
+
+            horasExtras = input("Ingrese las Horas extras : ")
+
+            horasExtras = int(horasExtras)
+
+            if horasExtras > 0:
+
+                break
+
+            else:
+
+                print("Dato invalido, Ingrese las Horas extras")
+
+        except ValueError:
+
+            print("Dato invalido, Ingrese las Horas extras")
+
+    while True:
+
+        try:
+
+            minutosTardanza = input("Ingrese los minutos de tardanza : ")
+
+            minutosTardanza = int(minutosTardanza)
+
+            if minutosTardanza > 0:
+
+                break
+
+            else:
+
+                print("Dato invalido, Ingrese los minutos de tardanza")
+
+        except ValueError:
+            
+            print("Dato invalido, Ingrese los minutos de tardanza")
+
+    break
+
 
 # Operación
 
+s = sueldoBruto(tarifaHoraria, horasTrabajadas)
+
+b = bonificación(tarifaHoraria, horasExtras)
+
+d = descuento(minutosTardanza)
+
 # Resultado
+
+salario(s, b, d)
 
 print("Muchas Gracias, programa terminado.")
