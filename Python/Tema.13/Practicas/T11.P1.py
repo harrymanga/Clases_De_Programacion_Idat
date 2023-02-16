@@ -1,13 +1,20 @@
 ""
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
 
 # Ejercicio 1
 
+print("Ingrese los datos necesarios")
+
+# Funciones
 
 # Ingreso de Datos
 
 dicc1 = {"101": "Juan", "102": "Pedro", "103": "Pablo"}
 
 dicc2 = {
+
     "101": ["Juan", 2500, "SMP"],
     "102": ["Pedro", 3500, "LOL"],
     "103": ["Pablo", 3000, "VES"],
@@ -51,7 +58,6 @@ dicc1["104"] = "Maria Barriga Grande"
 
 print(dicc1)
 
-# Programa principal
-
-
 # Resultados
+
+print("Muchas Gracias, programa terminado.")
