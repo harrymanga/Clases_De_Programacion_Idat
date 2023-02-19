@@ -13,6 +13,7 @@ print("Ingrese los datos necesarios")
 def vocales(n):
 
     v = ["a", "e", "i", "o", "u", "á", "é", "í", "ó", "ú", "ü"]
+
     contV = 0
 
     lista = n
@@ -82,7 +83,7 @@ def mayorCC(x):
     for i in range(len(lista)):
 
         if lista[i] == max(lista):
-
+            
             listaMCC.append(x[i])
 
     return listaMCC
