@@ -54,7 +54,7 @@ dicc1["101"] = "Juan Perez"
 
 print(dicc1)
 
-dicc1["104"] = "Maria Barriga Grande"
+dicc1["104"] = "María Barriga Grande"
 
 print(dicc1)
 
