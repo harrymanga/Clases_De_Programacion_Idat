@@ -14,7 +14,6 @@ print("Ingrese los datos necesarios")
 dicc1 = {"101": "Juan", "102": "Pedro", "103": "Pablo"}
 
 dicc2 = {
-
     "101": ["Juan", 2500, "SMP"],
     "102": ["Pedro", 3500, "LOL"],
     "103": ["Pablo", 3000, "VES"],
@@ -45,7 +44,7 @@ for clave, valor in dicc2.items():
 print(dicc2.values())
 
 for valor in dicc2.values():
-
+    
     print(valor)
 
 print(dicc1)

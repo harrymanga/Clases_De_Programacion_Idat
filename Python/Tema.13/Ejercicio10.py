@@ -1,43 +1,79 @@
 def pedirNombre():
+
     while True:
+
         n = input('Ingrese el nombre del alumno: ').upper()
+
         validacion1 = n.isalpha()
+
         if validacion1 == True:
+
             break
+
         else:
+
             print('Ingresar solo letras')
+
     return n
 
 def pedirNota(m):
+
     while True:
+
         n = int(input(m))
+
         if 0 <= n <= 20:
+
             break
+
         else:
+
             print('La nota ingresada no se encuentra en el rango de [0-20]')
+
     return n
 
 def registroDatos():
+
     d = {}
+
     print('\nRegistro de Alumnos')
+
     cant = int(input('Ingrese la cantidad de alumnos: '))
+
     for i in range(cant):
+
         nombre = pedirNombre()
+
         n1 = pedirNota('Ingrese la nota 1: ')
+
         n2 = pedirNota('Ingrese la nota 2: ')
+
         n3 = pedirNota('Ingrese la nota 3: ')
+
         n4 = pedirNota('Ingrese la nota 4: ')
+
         n5 = pedirNota('Ingrese la nota 5: ')
+
         cod = nombre[0] + str(i + 1)
+
         d[cod] = [nombre, n1, n2, n3, n4, n5]
+
     for c, v in d.items():
+
         p = (v[1] + v[2] + v[3] + v[4] + v[5]) / 5
+
         cond = 'Desaprobado'
+
         if p >= 13:
+
             cond = 'Aprobado'
+
         v.append(p)
+
         v.append(cond)
+
         d[c] = v
+        
     return d
 
 def listado(d):

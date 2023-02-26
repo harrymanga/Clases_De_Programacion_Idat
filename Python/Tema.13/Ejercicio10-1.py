@@ -8,6 +8,7 @@ def pedirNombre():
             print('Ingresar solo letras')
     return n
 
+
 def pedirNota(m):
     while True:
         n = int(input(m))
@@ -16,6 +17,7 @@ def pedirNota(m):
         else:
             print('La nota ingresada no se encuentra en el rango de [0-20]')
     return n
+
 
 def registroDatos():
     d = {}
@@ -40,11 +42,13 @@ def registroDatos():
         d[c] = v
     return d
 
+
 def listado(d):
     print('\nAlumnos Registrados')
     print('Código\tNombre\tNotas\t\t\tPromedio\tCondición')
     for c, v in d.items():
-        print(c,'\t',v[0],'\t',v[1:6],'\t',v[6],'\t',v[7])
+        print(c, '\t', v[0], '\t', v[1:6], '\t', v[6], '\t', v[7])
+
 
 def buscar(d):
     x = input('Ingrese el código del alumno: ')
@@ -54,6 +58,7 @@ def buscar(d):
             alumno = d[x]
     print(alumno)
 
+
 def verEstadisticas(d):
     c = 0
     for v in d.values():
@@ -62,7 +67,8 @@ def verEstadisticas(d):
     print('Cantidad de aprobados:', c)
     print('Cantidad de desaprobados:', len(d) - c)
 
-#programa principal
+
+# programa principal
 dic = {}
 while True:
     print('Menú')

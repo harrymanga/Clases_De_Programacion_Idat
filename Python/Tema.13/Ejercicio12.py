@@ -2,13 +2,21 @@
 
 
 def pedirNombre():
+
     while True:
+
         n = input("Ingrese el nombre del inquilino: ").upper()
+
         validacion1 = n.isalpha()
+
         if validacion1 == True:
+
             break
+
         else:
+
             print("Ingresar solo letras")
+            
     return n
 
 
