@@ -1,21 +1,38 @@
+
+
 def pedirNombre():
+
     while True:
+
         n = input('Ingrese el nombre del alumno: ').upper()
+
         validacion1 = n.isalpha()
+
         if validacion1 == True:
+
             break
+
         else:
+
             print('Ingresar solo letras')
+
     return n
 
 
 def pedirNota(m):
+
     while True:
+
         n = int(input(m))
+
         if 0 <= n <= 20:
+
             break
+
         else:
+
             print('La nota ingresada no se encuentra en el rango de [0-20]')
+            
     return n
 
 
