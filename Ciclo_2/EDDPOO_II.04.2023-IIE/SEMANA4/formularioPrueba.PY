@@ -6,13 +6,13 @@ import sys
 
 from PyQt5 import QtWidgets, uic
 
-qtCreatorFile = "SEMANA4/frmPrueba,ui"
+qtCreatorFile = "SEMANA4/frmPrueba.ui"
 
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
-class FormularioPrueba(QtWidgets,QtMainWindow):
+class FormularioPrueba(QtWidgets, QtMainWindow):
     
-    def __init__(self):
+    def __init__(self):ç
         
         super(FormularioPrueba, self).__init__()
         
