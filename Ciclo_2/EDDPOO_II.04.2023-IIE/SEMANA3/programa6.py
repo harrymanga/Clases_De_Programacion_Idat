@@ -24,7 +24,7 @@ lblSegundoNumero = Label(ventana, text = "Segundo número", bg = "yellow", fg = 
 
 lblSegundoNumero.grid(row = 2, column = 1, padx = 5, pady = 5)
  
-# Creamos nuestas cajas de texto (Entry)
+# Creamos nuestras cajas de texto (Entry)
  
 txtPrimerNumero = Entry(ventana, font = ("Arial Bold", 15), justify = CENTER)
 

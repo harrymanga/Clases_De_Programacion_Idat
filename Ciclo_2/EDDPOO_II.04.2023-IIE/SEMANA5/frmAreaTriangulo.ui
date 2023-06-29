@@ -7,18 +7,18 @@
     <x>0</x>
     <y>0</y>
     <width>425</width>
-    <height>326</height>
+    <height>289</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="btnProcesar">
+   <widget class="QPushButton" name="btnCalcular">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>110</y>
+      <x>320</x>
+      <y>20</y>
       <width>90</width>
       <height>28</height>
      </rect>
@@ -29,14 +29,14 @@ background-color: rgb(85, 85, 255);
 font: 75 11pt &quot;Comic Sans MS&quot;;</string>
     </property>
     <property name="text">
-     <string>PROCESAR</string>
+     <string>CALCULAR</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnLimpiar">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>110</y>
+      <x>320</x>
+      <y>70</y>
       <width>90</width>
       <height>28</height>
      </rect>
@@ -53,8 +53,8 @@ font: 75 11pt &quot;Comic Sans MS&quot;;</string>
    <widget class="QPushButton" name="btnSalir">
     <property name="geometry">
      <rect>
-      <x>315</x>
-      <y>110</y>
+      <x>320</x>
+      <y>120</y>
       <width>90</width>
       <height>28</height>
      </rect>
@@ -68,55 +68,87 @@ font: 75 11pt &quot;Comic Sans MS&quot;;</string>
      <string>SALIR</string>
     </property>
    </widget>
-   <widget class="QLabel" name="lblTexto">
+   <widget class="QLabel" name="lblBase">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>40</y>
-      <width>261</width>
-      <height>30</height>
+      <x>10</x>
+      <y>30</y>
+      <width>90</width>
+      <height>28</height>
      </rect>
     </property>
-    <property name="layoutDirection">
-     <enum>Qt::LeftToRight</enum>
-    </property>
     <property name="styleSheet">
-     <string notr="true">font: 75 10pt &quot;Comic Sans MS&quot;;</string>
-    </property>
-    <property name="lineWidth">
-     <number>1</number>
+     <string notr="true">font: 11pt &quot;Gill Sans Ultra Bold&quot;;</string>
     </property>
     <property name="text">
-     <string>Escriba el texto aqui..</string>
+     <string>BASE :</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
-    <property name="wordWrap">
-     <bool>false</bool>
-    </property>
    </widget>
-   <widget class="QLabel" name="lblIcon">
+   <widget class="QLabel" name="lblAltura">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>180</y>
-      <width>211</width>
-      <height>101</height>
+      <x>20</x>
+      <y>80</y>
+      <width>90</width>
+      <height>28</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;Gill Sans Ultra Bold&quot;;</string>
+    </property>
     <property name="text">
-     <string/>
+     <string>ALTURA :</string>
     </property>
-    <property name="pixmap">
-     <pixmap>qtDesigner1.png</pixmap>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
-    <property name="scaledContents">
-     <bool>true</bool>
+   </widget>
+   <widget class="QLineEdit" name="txtBase">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::StrongFocus</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtAltura">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>80</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtS">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>260</width>
+      <height>130</height>
+     </rect>
     </property>
    </widget>
   </widget>
  </widget>
+ <tabstops>
+  <tabstop>txtBase</tabstop>
+  <tabstop>txtAltura</tabstop>
+  <tabstop>btnCalcular</tabstop>
+  <tabstop>btnLimpiar</tabstop>
+  <tabstop>btnSalir</tabstop>
+  <tabstop>txtS</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
