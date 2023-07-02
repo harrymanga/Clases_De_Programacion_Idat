@@ -29,13 +29,13 @@ class PagoMensual(QtWidgets.QMainWindow):
 
         self.show()
         
-    def procesar(selft):
+    def procesar(self):
         
         # Entrada de Datos
             
-        horas = selft.txtHoras.text()
+        horas = self.txtHoras.text()
                    
-        tarifa = selft.txtTarifa.text()
+        tarifa = self.txtTarifa.text()
             
         # Proceso de Calculo
         
@@ -49,29 +49,29 @@ class PagoMensual(QtWidgets.QMainWindow):
                        
         # Salida de Resultados
         
-            selft.txtS.setText("PAGO MENSUAL DEL EMPLEADO : \n")
+            self.txtS.setText("PAGO MENSUAL DEL EMPLEADO : \n")
             
-            selft.txtS.append(f"El Sueldo Básico es : {round(sueldoBasico, 2)}")
+            self.txtS.append(f"El Sueldo Básico es : {round(sueldoBasico, 2)}")
             
-            selft.txtS.append(f"El Sueldo Bruto es : {round(sueldoBruto, 2)}")
+            self.txtS.append(f"El Sueldo Bruto es : {round(sueldoBruto, 2)}")
             
-            selft.txtS.append(f"El Sueldo Neto es : {round(sueldoNeto, 2)}")
+            self.txtS.append(f"El Sueldo Neto es : {round(sueldoNeto, 2)}")
 
         except ValueError:
             
-            selft.txtS.append("Dato Invalido, Ingrese solo horas o tarifas validas.")
+            self.txtS.append("Dato Invalido, Ingrese solo horas o tarifas validas.")
 
-    def limpiar(selft):
+    def limpiar(self):
         
-        selft.txtHoras.setText("")
+        self.txtHoras.setText("")
         
-        selft.txtTarifa.setText("")
+        self.txtTarifa.setText("")
         
-        selft.txtS.setText("")
+        self.txtS.setText("")
         
-    def salir(selft):
+    def salir(self):
         
-        selft.close()
+        self.close()
 
 if __name__ == "__main__":
     

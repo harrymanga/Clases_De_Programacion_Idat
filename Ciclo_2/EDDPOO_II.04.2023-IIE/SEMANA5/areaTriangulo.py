@@ -27,13 +27,13 @@ class AreaTriangulo(QtWidgets.QMainWindow):
 
         self.show()
         
-    def calcular(selft):
+    def calcular(self):
         
         # Entrada de Datos
             
-        base = selft.txtBase.text()
+        base = self.txtBase.text()
                    
-        altura = selft.txtAltura.text()
+        altura = self.txtAltura.text()
             
         # Proceso de Calculo
         
@@ -43,29 +43,29 @@ class AreaTriangulo(QtWidgets.QMainWindow):
                        
         # Salida de Resultados
         
-            selft.txtS.setText("AREA DEL TRIANGULO : \n")
+            self.txtS.setText("AREA DEL TRIANGULO : \n")
             
-            selft.txtS.append(f"El valor de la base es : {float(base)}")
+            self.txtS.append(f"El valor de la base es : {float(base)}")
             
-            selft.txtS.append(f"El valor de la altura es : {float(altura)}")
+            self.txtS.append(f"El valor de la altura es : {float(altura)}")
             
-            selft.txtS.append(f"El valor del area es : {area}")
+            self.txtS.append(f"El valor del area es : {area}")
 
         except ValueError:
             
-            selft.txtS.append("Dato Invalido, Ingrese solo Números")
+            self.txtS.append("Dato Invalido, Ingrese solo Números")
 
-    def limpiar(selft):
+    def limpiar(self):
         
-        selft.txtBase.setText("")
+        self.txtBase.setText("")
         
-        selft.txtAltura.setText("")
+        self.txtAltura.setText("")
         
-        selft.txtS.setText("")
+        self.txtS.setText("")
         
-    def salir(selft):
+    def salir(self):
         
-        selft.close()
+        self.close()
 
 if __name__ == "__main__":
     
