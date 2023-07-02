@@ -40,10 +40,7 @@ class FormularioVentas(QtWidgets.QMainWindow):
            
         # Proceso de Calculo
         
-        try:
-            
-            
-             
+        #try:
                   
         # Salida de Resultados en las lineas de texto
             
@@ -51,7 +48,7 @@ class FormularioVentas(QtWidgets.QMainWindow):
         # Salida de Resultados en la caja de texto
         
         
-        except ValueError:
+        #except ValueError:
             
             #self.txtS.append("Dato Invalido, Ingrese solo precios validos.") 
 
