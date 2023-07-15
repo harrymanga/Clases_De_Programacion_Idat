@@ -1,6 +1,5 @@
 ""
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 
 # Ejercicio 7
@@ -35,7 +34,7 @@ else:
 
     r = float(input("Ingrese la medida del radio del círculo: "))
 
-    ac = math.pi * (r**2)
+    ac = math.pi * (r ** 2)
 
     res = "El área del triángulo es: " + str(round(ac, 2))
 
