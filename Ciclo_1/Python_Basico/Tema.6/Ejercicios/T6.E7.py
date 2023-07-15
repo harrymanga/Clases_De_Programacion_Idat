@@ -1,13 +1,10 @@
 ""
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 
 # Ejercicio 7
 
-print(
-    "Si desea hallar el área del Rectángulo ingrese 1 \nSi desea hallar el área del Trapecio ingrese 2 \nSi desea hallar el área del Pentágono ingrese 3"
-)
+print("Si desea hallar el área del Rectángulo ingrese 1 \nSi desea hallar el área del Trapecio ingrese 2 \nSi desea hallar el área del Pentágono ingrese 3")
 
 # Ingreso de Datos
 

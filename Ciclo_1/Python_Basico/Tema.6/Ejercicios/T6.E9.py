@@ -1,6 +1,5 @@
 ""
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 
 # Ejercicio 9
@@ -47,11 +46,11 @@ if 0 <= n1 <= 20 and 0 <= n2 <= 20 and 0 <= n3 <= 20:
 
     if prom >= 13:
 
-        res = "EL alumno APROBO con: " + str(prom)
+        res = "EL alumno APROBÓ con: " + str(prom)
 
     else:
 
-        res = "EL alumno DESAPROBO con: " + str(prom)
+        res = "EL alumno DESAPROBÓ con: " + str(prom)
 
 else:
 

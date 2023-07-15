@@ -1,6 +1,5 @@
 ""
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 
 # Ejercicio 8
@@ -13,9 +12,7 @@ ed = int(input("Ingrese la edad del usuario de la entrada: "))
 
 en = int(input("Ingrese la cantidad de entradas: "))
 
-tj = input(
-    "Si desea pagar con tarjeta, ingrese el nombre de la tarjeta; de lo contrario pulse ENTER: "
-).capitalize()
+tj = input("Si desea pagar con tarjeta, ingrese el nombre de la tarjeta; de lo contrario pulse ENTER: ").capitalize()
 
 # Operación
 

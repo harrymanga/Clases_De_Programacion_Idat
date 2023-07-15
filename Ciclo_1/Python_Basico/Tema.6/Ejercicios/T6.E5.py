@@ -1,13 +1,10 @@
 ""
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 
 # Ejercicio 5
 
-print(
-    "Si desea comprar un Smart Tv use el código P001 \nSi desea comprar una Refrigeradora use el codigo P002 \nSi decea comprar una Lavadora use el codigo P003"
-)
+print("Si desea comprar un Smart Tv use el código P001 \nSi desea comprar una Refrigeradora use el código P002 \nSi desea comprar una Lavadora use el código P003")
 
 # Ingreso de Datos
 
