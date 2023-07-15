@@ -1,6 +1,5 @@
 ""
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 
 # Ejercicio 4
@@ -9,11 +8,11 @@ print("Por favor ingrese los números enteros para realizar el promedio")
 
 # Ingreso de Datos
 
-n1 = int(input("Ingrese el primer numero entero: "))
+n1 = int(input("Ingrese el primer número entero: "))
 
-n2 = int(input("Ingrese el segundo numero entero: "))
+n2 = int(input("Ingrese el segundo número entero: "))
 
-n3 = int(input("Ingrese el tercer numero entero: "))
+n3 = int(input("Ingrese el tercer número entero: "))
 
 # Operación
 

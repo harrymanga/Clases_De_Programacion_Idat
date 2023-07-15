@@ -1,13 +1,10 @@
 ""
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 
 # Ejercicio 13
 
-print(
-    "Por favor ingrese los datos para calcular el porcentaje de estudiantes varones y mujeres"
-)
+print("Por favor ingrese los datos para calcular el porcentaje de estudiantes varones y mujeres")
 
 # Ingreso de Datos
 

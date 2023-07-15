@@ -1,6 +1,5 @@
 ""
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 
 # Ejercicio 1
@@ -9,9 +8,9 @@ print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
-x = float(input("Ingrese el perimetro del octagono: "))
+x = float(input("Ingrese el perímetro del octágono: "))
 
-y = float(input("ingrese el apotema del octagono: "))
+y = float(input("ingrese el apotema del octágono: "))
 
 # Operación
 
