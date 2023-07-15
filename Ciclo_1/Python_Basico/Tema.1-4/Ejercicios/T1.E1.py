@@ -1,7 +1,5 @@
-
 ""
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 
 #Ejercicio 1
@@ -10,9 +8,9 @@ print("Ingrese los datos necesarios")
 
 # Ingreso de Datos
 
-a = int(input("Ingrese el numero a: "))
+a = int(input("Ingrese el número a: "))
 
-b = int(input("Ingrese el numero b: "))
+b = int(input("Ingrese el número b: "))
 
 # Operación
 

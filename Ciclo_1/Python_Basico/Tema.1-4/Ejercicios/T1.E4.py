@@ -1,7 +1,5 @@
 ""
-
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 
 # Ejercicio 4
@@ -14,7 +12,7 @@ s = float(input("Ingrese el Sueldo: "))
 
 m = float(input("Ingrese los minutos de tardanza: "))
 
-d = float(input("Ingrese los dias de inasistencia: "))
+d = float(input("Ingrese los días de inasistencia: "))
 
 # Operación
 

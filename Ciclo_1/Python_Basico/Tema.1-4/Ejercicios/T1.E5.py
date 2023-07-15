@@ -1,7 +1,5 @@
 ""
-
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
 
 # Ejercicio 5
@@ -18,6 +16,6 @@ b = s * (15 / 100)
 
 # Resultados
 
-print("El monto de la bonificacion es: ", b)
+print("El monto de la bonificación es: ", b)
 
 print("Muchas Gracias, programa terminado.")
