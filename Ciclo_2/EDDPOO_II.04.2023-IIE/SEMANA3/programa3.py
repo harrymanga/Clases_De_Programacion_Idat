@@ -11,13 +11,13 @@ cadena = input("Por favor ingrese una cadena : ").lower()
 
 while True:
     
-    caracter = input("Ingrese un caracter : ").lower()
+    caracter = input("Ingrese un carácter : ").lower()
     
     if len(caracter) == 1: break
     
 # FORMA 2
 
-#caracter = input("Ingrese un caracter : ").lower()
+#caracter = input("Ingrese un carácter : ").lower()
 
 #while len(caracter) != 1:
     

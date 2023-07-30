@@ -38,7 +38,7 @@ class PagoMensual(QtWidgets.QMainWindow):
         tarifa = self.txtTarifa.text()
             
         # Proceso de Calculo
-        
+         
         try:
              
             sueldoBasico = int(horas) * float(tarifa)
