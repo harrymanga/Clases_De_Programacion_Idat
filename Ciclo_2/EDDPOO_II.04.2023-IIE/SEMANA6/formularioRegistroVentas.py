@@ -37,6 +37,24 @@ class FormularioVentas(QtWidgets.QMainWindow):
         tipoPago = self.cboPago.currentText()
         
         cantidad = self.txtCantidad.text()
+        
+        # Precio del producto
+        
+        precio = 0
+        
+        if producto == "Colección Escolar" :
+            
+            precio = 240
+        
+        elif producto == "Colección PreUniversitaria" :
+            
+            precio = 150
+            
+        elif producto == "Colección Profesional" :
+            
+            precio = 350
+        
+        self.lblPrecio.set.Text("S/. " + str(precio))
            
         # Proceso de Calculo
         
