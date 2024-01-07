@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#Ejercicio 1
+# Ejercicio 1
 
 print("Ingrese los datos necesarios")
 

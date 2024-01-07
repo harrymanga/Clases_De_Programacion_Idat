@@ -14,7 +14,7 @@ from operaciones import potencia
 
 print("=============================")
 
-print("CALCULAR LA SUMA DE 2 NUMEROS")
+print("CALCULAR LA SUMA DE 2 NÚMEROS")
 
 print("=============================\n")
 

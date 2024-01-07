@@ -2,13 +2,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import math
+
 # Ejercicio 5
 
 print("Por favor ingrese los datos para hallar la hipotenusa del triangulo rectángulo")
 
 # Ingreso de Datos
-
-import math
 
 a = float(input("Ingrese la medida del cateto a: "))
 
