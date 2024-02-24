@@ -8,7 +8,7 @@ import sys
 
 from PyQt5 import QtWidgets, uic
 
-qtCreatorFile = "SEMANA5/frmPago.ui"
+qtCreatorFile = "frmPago.ui"
 
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
@@ -18,7 +18,7 @@ class PagoMensual(QtWidgets.QMainWindow):
         
         super(PagoMensual, self).__init__()
         
-        uic.loadUi("SEMANA5/frmPago.ui", self)
+        uic.loadUi("frmPago.ui", self)
         
         
         self.btnProcesar.clicked.connect(self.procesar)

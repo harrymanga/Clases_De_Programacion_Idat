@@ -6,7 +6,7 @@ import sys
 
 from PyQt5 import QtWidgets, uic
 
-qtCreatorFile = "SEMANA4/frmPrueba.ui"
+qtCreatorFile = "frmPrueba.ui"
 
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
@@ -16,7 +16,7 @@ class FormularioPrueba(QtWidgets.QMainWindow):
         
         super(FormularioPrueba, self).__init__()
         
-        uic.loadUi("SEMANA4/frmPrueba.ui", self)
+        uic.loadUi("frmPrueba.ui", self)
 
 
         self.btnProcesar.clicked.connect(self.procesar)

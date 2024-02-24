@@ -6,7 +6,7 @@ import sys
 
 from PyQt5 import QtWidgets, uic
 
-qtCreatorFile = "SEMANA5/frmAreaTriangulo.ui"
+qtCreatorFile = "frmAreaTriangulo.ui"
 
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
@@ -16,7 +16,7 @@ class AreaTriangulo(QtWidgets.QMainWindow):
         
         super(AreaTriangulo, self).__init__()
         
-        uic.loadUi("SEMANA5/frmAreaTriangulo.ui", self)
+        uic.loadUi("frmAreaTriangulo.ui", self)
         
         
         self.btnCalcular.clicked.connect(self.calcular)
