@@ -1,0 +1,10 @@
+{
+    "prompt_initial": "Ingrese los datos necesarios",
+    "prompt_input_a": "Ingrese el número a: ",
+    "prompt_input_b": "Ingrese el número b: ",
+    "result_power_ab": "La operación a elevado a la b es: ",
+    "result_power_ba": "La operación b elevado a la a es: ",
+    "result_root_b_of_a": "La raíz a de b es: ",
+    "result_root_a_of_b": "La raíz b de a es: ",
+    "thank_you": "Muchas Gracias, programa terminado."
+  }
