@@ -80,7 +80,7 @@ def resta():
         
         txtPrimerNumero.focus()
  
-def muultiplicacion():
+def multiplicacion():
     
     try:
     
@@ -136,7 +136,7 @@ btnResta = Button(ventana, text = "-", bg = "green", fg = "white", width = 12, f
 
 btnResta.grid(row = 3, column = 2, padx = 5, pady = 5)
  
-btnMultiplicacion = Button(ventana, text = "*", bg = "green", fg = "white", width = 12, font = ("Arial Bold", 15), command = muultiplicacion)
+btnMultiplicacion = Button(ventana, text = "*", bg = "green", fg = "white", width = 12, font = ("Arial Bold", 15), command = multiplicacion)
 
 btnMultiplicacion.grid(row = 4, column = 1, padx = 5, pady = 5)
  
